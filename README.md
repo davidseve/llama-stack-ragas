@@ -6,6 +6,37 @@ This project follows Red Hat OpenShift AI Self-Managed 3.0 best practices using 
 
 ## Prerequisites
 
+### Infrastructure Requirements
+
+| Component | Version | Description |
+|-----------|---------|-------------|
+| **OpenShift Container Platform** | 4.20+ | Kubernetes distribution for enterprise |
+| **Red Hat OpenShift AI** | 3.0+ | AI/ML platform with model serving capabilities |
+
+### Deploy Llama Stack with LLM Model
+
+Before using this evaluation workflow, you need a running Llama Stack instance with an LLM model. Follow these steps using the [llama-stack-example](https://github.com/davidseve/llama-stack-example) repository:
+
+#### 1. Clone the deployment repository
+
+```bash
+git clone https://github.com/davidseve/llama-stack-example.git
+cd llama-stack-example
+```
+
+#### 2. GitOps Deployment (ArgoCD)
+
+For automated GitOps deployment with ArgoCD:
+
+```bash
+export VLLM_API_TOKEN="<your_token>"
+envsubst < gitops/appOfApps.yaml | oc apply -f -
+```
+
+This creates an ArgoCD Application that automatically syncs and deploys all components.
+
+### Python Dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
