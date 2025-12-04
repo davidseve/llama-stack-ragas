@@ -1,0 +1,63 @@
+[
+    {
+      "id": "millbrook_001",
+      "question": "How many residents does the city of Millbrook have and in what year was it incorporated?",
+      "ground_truth": "Millbrook has 47,832 residents and was incorporated in 1892.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "millbrook_002",
+      "question": "What is Dr. Elena Vasquez's current position and at what institution does she work?",
+      "ground_truth": "Dr. Elena Vasquez is Chief of Cardiology and Director of Millbrook General Hospital, located at 1247 Medical Plaza Dr., Riverside District.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "millbrook_003",
+      "question": "What languages does Dr. Elena Vasquez speak and what is her native language?",
+      "ground_truth": "Dr. Elena Vasquez speaks Spanish (native), English (fluent), and Portuguese (conversational).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "millbrook_004",
+      "question": "What are the contradictory figures mentioned about Bridge 7's load capacity?",
+      "ground_truth": "The document presents contradictory information about Bridge 7's load capacity: 25 tons (current), 40 tons (original), and 15-ton restrictions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "millbrook_005",
+      "question": "What does Sofia Okafor's PE license mean and what license numbers does she have?",
+      "ground_truth": "Sofia Okafor's PE license means Professional Engineer. She holds PE license #89472 from Texas and PE license #67821 from California, which allow her to practice engineering and sign engineering documents.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "millbrook_006",
+      "question": "How are Carmen Vasquez and Emmanuel Okafor connected through their families?",
+      "ground_truth": "Carmen Vasquez is the daughter of Dr. Elena Vasquez and Emmanuel Okafor is the son of Dr. Kwame Okafor. Their mothers work together at Millbrook General Hospital, where Elena is Hospital Director and Kwame is a pediatrician. Carmen and Emmanuel are friends.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "millbrook_007",
+      "question": "What languages are mixed in the code-switching conversation at the bakery and who uses each one?",
+      "ground_truth": "The bakery conversation features multiple code-switching: Ahmed mixes Arabic ('أهلاً وسهلاً' and 'المجتمع يجب أن يعرف') with English; Dr. Vasquez mixes Spanish ('Gracias' and 'Para los pacientes cardíacos') with English; Marcus mixes English with Mandarin ('你明白吗？'); and Isabella mixes Italian ('Scusi' and 'questi ponti vengono e vanno') with Spanish/English.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "millbrook_008",
+      "question": "What is the daily economic impact of the bridge situation according to the document?",
+      "ground_truth": "The document mentions an economic impact of $47,000 per day, although commercial impact estimates of 25-35% are also cited.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "millbrook_009",
+      "question": "What are the specific technical reasons why Bridge 7 needs immediate attention according to the engineering report?",
+      "ground_truth": "The technical reasons include: 15.3cm pylon displacement, load capacity reduced to 65%, micro-fracturing, and an 18% reduction in natural frequency. These factors support the council's concern about an 8-14 month failure timeline and the need for immediate $2.3 million intervention.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "millbrook_010",
+      "question": "What medical concerns are mentioned regarding the bridge construction and what health professionals are involved in the planning?",
+      "ground_truth": "The main concerns are increased emergency response times (+4.7 minutes) affecting cardiac patients. Dr. Elena Vasquez (Hospital Director) and Rebecca Martinez (Emergency Nursing Manager) are involved in planning alternative routes and weekly progress reviews.",
+      "difficulty": "hard"
+    }
+  ]
+  
