@@ -1,5 +1,11 @@
 # RAG Evaluation with RAGAS and Llama Stack
 
+> ⚠️ **DEPRECATED**: This repository is no longer maintained. Please use the new version at:
+> 
+> **👉 [llama-stack-example/examples/rag-evaluation-ragas](https://github.com/davidseve/llama-stack-example/blob/main/examples/rag-evaluation-ragas/README.md)**
+
+---
+
 Complete workflow for RAG system evaluation using RAGAS metrics through Llama Stack SDK.
 
 This project follows Red Hat OpenShift AI Self-Managed 3.0 best practices using the **inline provider mode**.
